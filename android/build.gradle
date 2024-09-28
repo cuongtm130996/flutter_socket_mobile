@@ -3,9 +3,7 @@ version '1.0'
 
 buildscript {
     repositories {
-        google()
-        jcenter()
-
+        mavenCentral()
         maven {
             url "https://bin.socketmobile.com/repo/releases"
         }
@@ -18,9 +16,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        google()
-        jcenter()
-
+        mavenCentral()
         maven {
             url "https://bin.socketmobile.com/repo/releases"
         }
@@ -37,6 +33,6 @@ android {
     }
 
     dependencies {
-        implementation 'com.socketmobile:capture-android:1.8.13'
+        implementation 'com.socketmobile:capture-android:1.8.x'
     }
 }
