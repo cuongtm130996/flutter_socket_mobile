@@ -3,6 +3,7 @@ version '1.0'
 
 buildscript {
     repositories {
+        google()
         mavenCentral()
         maven {
             url "https://bin.socketmobile.com/repo/releases"
@@ -16,6 +17,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
+        google()
         mavenCentral()
         maven {
             url "https://bin.socketmobile.com/repo/releases"
