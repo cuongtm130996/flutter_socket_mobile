@@ -29,8 +29,10 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
+    namespace 'co.eivo.socket_mobile'
 
     defaultConfig {
+        namespace 'co.eivo.socket_mobile'
         minSdkVersion 16
     }
 
